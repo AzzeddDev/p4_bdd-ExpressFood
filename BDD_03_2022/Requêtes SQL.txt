@@ -1,0 +1,11 @@
+- Requêtes pour récupérer les données des commandes à l'aide d'une date précise :
+SELECT * FROM `commande` WHERE date="2022-05-18";
+
+- Requêtes pour récupérer les données sur des clients à l'aide d'un code postal précis :
+SELECT * FROM `adresse` WHERE code_postal="73000";
+
+- Requêtes pour récupérer les noms d'un dessert ajouter à une date précise :
+SELECT nom_dessert_1 FROM `dessert_jour` WHERE date_ajout="2022-05-19";
+
+- Requêtes pour récupérer les données sur les commandes livrée :
+SELECT * FROM `commande` WHERE status_commande="Livrée";
